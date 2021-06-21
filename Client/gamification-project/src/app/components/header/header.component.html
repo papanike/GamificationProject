@@ -1,0 +1,17 @@
+<mat-toolbar color="primary">
+    <mat-icon>eco</mat-icon>
+    <h3 [routerLink]="['./']" class="app-title">
+      Gamification Project
+    </h3>
+  
+    <span class="toolbar-spacer"></span>
+  
+    <span [hidden]="currentUser == null">
+      <span>{{currentUser?.username}}</span>
+      <span>&nbsp;</span>
+      <button mat-mini-fab color="accent" (click)="logout()">
+        <mat-icon>exit_to_app</mat-icon>
+      </button>
+    </span>
+  </mat-toolbar>
+  
