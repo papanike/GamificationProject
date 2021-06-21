@@ -1,0 +1,14 @@
+C:\Users\xPiki\Desktop\Projects\GamificationProject\Server\GamificationProject.Helpers\bin\Debug\netcoreapp3.1\GamificationProject.Helpers.deps.json
+C:\Users\xPiki\Desktop\Projects\GamificationProject\Server\GamificationProject.Helpers\bin\Debug\netcoreapp3.1\GamificationProject.Helpers.dll
+C:\Users\xPiki\Desktop\Projects\GamificationProject\Server\GamificationProject.Helpers\bin\Debug\netcoreapp3.1\GamificationProject.Helpers.pdb
+C:\Users\xPiki\Desktop\Projects\GamificationProject\Server\GamificationProject.Helpers\obj\Debug\netcoreapp3.1\GamificationProject.Helpers.csprojAssemblyReference.cache
+C:\Users\xPiki\Desktop\Projects\GamificationProject\Server\GamificationProject.Helpers\obj\Debug\netcoreapp3.1\GamificationProject.Helpers.AssemblyInfoInputs.cache
+C:\Users\xPiki\Desktop\Projects\GamificationProject\Server\GamificationProject.Helpers\obj\Debug\netcoreapp3.1\GamificationProject.Helpers.AssemblyInfo.cs
+C:\Users\xPiki\Desktop\Projects\GamificationProject\Server\GamificationProject.Helpers\obj\Debug\netcoreapp3.1\GamificationProject.Helpers.csproj.CoreCompileInputs.cache
+C:\Users\xPiki\Desktop\Projects\GamificationProject\Server\GamificationProject.Helpers\obj\Debug\netcoreapp3.1\GamificationProject.Helpers.dll
+C:\Users\xPiki\Desktop\Projects\GamificationProject\Server\GamificationProject.Helpers\obj\Debug\netcoreapp3.1\GamificationProject.Helpers.pdb
+C:\Users\xPiki\Desktop\Projects\GamificationProject\Server\GamificationProject.Helpers\bin\Debug\netcoreapp3.1\GamificationProject.Data.dll
+C:\Users\xPiki\Desktop\Projects\GamificationProject\Server\GamificationProject.Helpers\bin\Debug\netcoreapp3.1\GamificationProject.Data.pdb
+C:\Users\xPiki\Desktop\Projects\GamificationProject\Server\GamificationProject.Helpers\obj\Debug\netcoreapp3.1\GamificationProject.Helpers.csproj.CopyComplete
+C:\Users\xPiki\Desktop\Projects\GamificationProject\Server\GamificationProject.Helpers\bin\Debug\netcoreapp3.1\GamificationProject.Interfaces.dll
+C:\Users\xPiki\Desktop\Projects\GamificationProject\Server\GamificationProject.Helpers\bin\Debug\netcoreapp3.1\GamificationProject.Interfaces.pdb

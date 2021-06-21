@@ -1,0 +1,17 @@
+C:\Projects\GamificationProject\GamificationProject\GamificationProject.Data\bin\Debug\netcoreapp3.1\GamificationProject.Data.deps.json
+C:\Projects\GamificationProject\GamificationProject\GamificationProject.Data\bin\Debug\netcoreapp3.1\GamificationProject.Data.dll
+C:\Projects\GamificationProject\GamificationProject\GamificationProject.Data\bin\Debug\netcoreapp3.1\GamificationProject.Data.pdb
+C:\Projects\GamificationProject\GamificationProject\GamificationProject.Data\obj\Debug\netcoreapp3.1\GamificationProject.Data.csproj.CoreCompileInputs.cache
+C:\Projects\GamificationProject\GamificationProject\GamificationProject.Data\obj\Debug\netcoreapp3.1\GamificationProject.Data.AssemblyInfoInputs.cache
+C:\Projects\GamificationProject\GamificationProject\GamificationProject.Data\obj\Debug\netcoreapp3.1\GamificationProject.Data.AssemblyInfo.cs
+C:\Projects\GamificationProject\GamificationProject\GamificationProject.Data\obj\Debug\netcoreapp3.1\GamificationProject.Data.dll
+C:\Projects\GamificationProject\GamificationProject\GamificationProject.Data\obj\Debug\netcoreapp3.1\GamificationProject.Data.pdb
+C:\Users\xPiki\Desktop\Projects\GamificationProject\Server\GamificationProject.Data\bin\Debug\netcoreapp3.1\GamificationProject.Data.deps.json
+C:\Users\xPiki\Desktop\Projects\GamificationProject\Server\GamificationProject.Data\bin\Debug\netcoreapp3.1\GamificationProject.Data.dll
+C:\Users\xPiki\Desktop\Projects\GamificationProject\Server\GamificationProject.Data\bin\Debug\netcoreapp3.1\GamificationProject.Data.pdb
+C:\Users\xPiki\Desktop\Projects\GamificationProject\Server\GamificationProject.Data\obj\Debug\netcoreapp3.1\GamificationProject.Data.csprojAssemblyReference.cache
+C:\Users\xPiki\Desktop\Projects\GamificationProject\Server\GamificationProject.Data\obj\Debug\netcoreapp3.1\GamificationProject.Data.AssemblyInfoInputs.cache
+C:\Users\xPiki\Desktop\Projects\GamificationProject\Server\GamificationProject.Data\obj\Debug\netcoreapp3.1\GamificationProject.Data.AssemblyInfo.cs
+C:\Users\xPiki\Desktop\Projects\GamificationProject\Server\GamificationProject.Data\obj\Debug\netcoreapp3.1\GamificationProject.Data.csproj.CoreCompileInputs.cache
+C:\Users\xPiki\Desktop\Projects\GamificationProject\Server\GamificationProject.Data\obj\Debug\netcoreapp3.1\GamificationProject.Data.dll
+C:\Users\xPiki\Desktop\Projects\GamificationProject\Server\GamificationProject.Data\obj\Debug\netcoreapp3.1\GamificationProject.Data.pdb

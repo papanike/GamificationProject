@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GamificationProject.Data\GamificationProject.Data.csproj" />
+    <ProjectReference Include="..\GamificationProject.Interfaces\GamificationProject.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

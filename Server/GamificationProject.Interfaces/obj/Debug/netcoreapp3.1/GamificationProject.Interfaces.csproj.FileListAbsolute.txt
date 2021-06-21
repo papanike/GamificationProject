@@ -1,0 +1,12 @@
+C:\Users\xPiki\Desktop\Projects\GamificationProject\Server\GamificationProject.Interfaces\obj\Debug\netcoreapp3.1\GamificationProject.Interfaces.csprojAssemblyReference.cache
+C:\Users\xPiki\Desktop\Projects\GamificationProject\Server\GamificationProject.Interfaces\obj\Debug\netcoreapp3.1\GamificationProject.Interfaces.AssemblyInfoInputs.cache
+C:\Users\xPiki\Desktop\Projects\GamificationProject\Server\GamificationProject.Interfaces\obj\Debug\netcoreapp3.1\GamificationProject.Interfaces.AssemblyInfo.cs
+C:\Users\xPiki\Desktop\Projects\GamificationProject\Server\GamificationProject.Interfaces\obj\Debug\netcoreapp3.1\GamificationProject.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\xPiki\Desktop\Projects\GamificationProject\Server\GamificationProject.Interfaces\bin\Debug\netcoreapp3.1\GamificationProject.Interfaces.deps.json
+C:\Users\xPiki\Desktop\Projects\GamificationProject\Server\GamificationProject.Interfaces\bin\Debug\netcoreapp3.1\GamificationProject.Interfaces.dll
+C:\Users\xPiki\Desktop\Projects\GamificationProject\Server\GamificationProject.Interfaces\bin\Debug\netcoreapp3.1\GamificationProject.Interfaces.pdb
+C:\Users\xPiki\Desktop\Projects\GamificationProject\Server\GamificationProject.Interfaces\obj\Debug\netcoreapp3.1\GamificationProject.Interfaces.dll
+C:\Users\xPiki\Desktop\Projects\GamificationProject\Server\GamificationProject.Interfaces\obj\Debug\netcoreapp3.1\GamificationProject.Interfaces.pdb
+C:\Users\xPiki\Desktop\Projects\GamificationProject\Server\GamificationProject.Interfaces\bin\Debug\netcoreapp3.1\GamificationProject.Data.dll
+C:\Users\xPiki\Desktop\Projects\GamificationProject\Server\GamificationProject.Interfaces\bin\Debug\netcoreapp3.1\GamificationProject.Data.pdb
+C:\Users\xPiki\Desktop\Projects\GamificationProject\Server\GamificationProject.Interfaces\obj\Debug\netcoreapp3.1\GamificationProject.Interfaces.csproj.CopyComplete

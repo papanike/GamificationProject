@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\xPiki\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\xPiki\\.nuget\\packages"
+    ]
+  }
+}

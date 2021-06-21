@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "GamificationProject.Helpers/1.0.0": {
+        "dependencies": {
+          "GamificationProject.Data": "1.0.0",
+          "GamificationProject.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "GamificationProject.Helpers.dll": {}
+        }
+      },
+      "GamificationProject.Data/1.0.0": {
+        "runtime": {
+          "GamificationProject.Data.dll": {}
+        }
+      },
+      "GamificationProject.Interfaces/1.0.0": {
+        "dependencies": {
+          "GamificationProject.Data": "1.0.0"
+        },
+        "runtime": {
+          "GamificationProject.Interfaces.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GamificationProject.Helpers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GamificationProject.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GamificationProject.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
