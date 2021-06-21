@@ -1,13 +1,13 @@
 import { SimpleEntity } from "./simple-entity";
 
-export class Alert extends SimpleEntity{
+export class Alert extends SimpleEntity {
     type: AlertType;
     message: string;
     autoClose: boolean;
     keepAfterRouteChange: boolean;
     fade: boolean;
 
-    constructor(init?:Partial<Alert>) {
+    constructor(init?: Alert) {
         super();
         Object.assign(this, init);
     }
