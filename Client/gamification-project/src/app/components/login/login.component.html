@@ -1,1 +1,50 @@
-<p>login works!</p>
+<div class="container no-title loginForm">
+    <!-- <div class="row">
+        <div class="col-sm-12 col-md-12 offset-lg-3 col-lg-6"> -->
+    <mat-card>
+        <mat-card-title>
+            <h3>Log in</h3>
+        </mat-card-title>
+        <mat-card-content>
+            <form [formGroup]="form" (ngSubmit)="onSubmit()">
+                <div class="row padding">
+                    <div class="offset-1 col-10">
+                        <mat-form-field class="full-width form">
+                            <mat-label>Username</mat-label>
+                            <input matInput type="text" formControlName="username" class="form-control"
+                                [ngClass]="{ 'is-invalid': submitted && f.username.errors }" />
+                            <!-- <div *ngIf="submitted && f.username.errors" class="invalid-feedback">
+                                <mat-hint *ngIf="f.username.errors.required">Username is required</mat-hint>
+                            </div> -->
+                        </mat-form-field>
+                        <!-- <span matSuffix>
+                            <ng-content select="[suffix]"></ng-content>
+                        </span> -->
+                    </div>
+                </div>
+                <div class="row padding">
+                    <div class="offset-1 col-10">
+                        <mat-form-field class="full-width">
+                            <mat-label>Password</mat-label>
+                            <input matInput type="password" formControlName="password" class="form-control"
+                                [ngClass]="{ 'is-invalid': submitted && f.password.errors }" />
+                            <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
+                                <div *ngIf="f.password.errors.required">Password is required</div>
+                            </div>
+                        </mat-form-field>
+                    </div>
+                </div>
+                <div class="row padding">
+                    <div class="offset-1 col-10">
+                        <button mat-raised-button color="accent" [disabled]="loading">
+                            <span *ngIf="loading"></span>
+                            Login
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </mat-card-content>
+    </mat-card>
+    <!-- </div>
+    </div> -->
+</div>

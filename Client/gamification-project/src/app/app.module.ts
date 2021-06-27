@@ -56,6 +56,13 @@ import { RegisterComponent } from './components/register/register.component';
     MatProgressSpinnerModule, MatSnackBarModule, MatDatepickerModule, MatNativeDateModule,
     MatButtonToggleModule, MatExpansionModule, MatRippleModule, MatTabsModule, MatRadioModule,
     MatGridListModule, MatBottomSheetModule
+  ], exports: [
+    MatButtonModule, MatCheckboxModule, MatSidenavModule, MatToolbarModule,
+    MatMenuModule, MatIconModule, MatListModule, MatTableModule, MatPaginatorModule,
+    MatCardModule, MatDialogModule, MatInputModule, MatOptionModule, MatSelectModule,
+    MatProgressSpinnerModule, MatSnackBarModule, MatDatepickerModule, MatNativeDateModule,
+    MatButtonToggleModule, MatExpansionModule, MatRippleModule, MatTabsModule, MatRadioModule,
+    MatGridListModule, MatBottomSheetModule
   ],
   providers: [],
   bootstrap: [AppComponent]

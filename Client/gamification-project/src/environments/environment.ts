@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiEndpoint: 'http://localhost/GamificationProject.Api/api/'
+  apiEndpoint: 'http://localhost/GamificationProject.Api/api'
 };
 
 /*

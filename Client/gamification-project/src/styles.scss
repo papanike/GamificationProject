@@ -1,14 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
-@import '~@angular/material/theming';
-@import 'src/assets/_variables';
+// @import "~@angular/material/theming";
+@import "src/assets/_variables";
 
-$candy-app-theme: mat-light-theme($candy-app-primary, $candy-app-accent, $candy-app-warn);
-@include angular-material-theme($candy-app-theme);
 
-body{
-  margin: 0; //fak dis, took me like 10 hours to see what's wrong aaaaaaaaa
+// $candy-app-theme: mat-light-theme($candy-app-primary, $candy-app-accent, $candy-app-warn);
+// @include angular-material-theme($candy-app-theme);
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  // display: grid;
 }
 
-.data-grid {
-	width: 100%;
+.full-width {
+  width: 100%;
+}
+
+.app-is-mobile .page-content {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.app-toolbar {
+  top: 0px;
+  height: 70px !important;
+}
+
+.app-footer {
+  text-align: center;
+  width: 100%;
+}
+
+// .app-container {
+//   min-height: 320px;
+//   overflow: hidden;
+// }
+
+.textCenter {
+  text-align: center;
 }

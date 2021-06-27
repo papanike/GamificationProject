@@ -1,0 +1,29 @@
+@import "src/assets/_variables";
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.mat-card-title {
+    color: $primary !important;
+}
+
+.loginForm {
+    position: absolute;
+    min-width: 400px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+
+.mat-form-field {
+  //  display: inline-block;
+  //  position: initial !important;
+ //   text-align: left;
+}
+
+.padding {
+    padding: 10px;
+}

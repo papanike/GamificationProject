@@ -6,15 +6,13 @@ import { RegisterComponent } from './components/register/register.component';
 
 
 const routes: Routes = [
-  {
-    path: '', component: DashboardComponent, // canActivate: [AuthGuard] 
-    children: [
-      { path: 'login', component: LoginComponent },
-      { path: 'register', component: RegisterComponent }
-    ]
-  },
+  { path: '', component: DashboardComponent }, // canActivate: [AuthGuard] },
+  { path: 'login', component: LoginComponent },
+  { path: 'register', component: RegisterComponent },
+
   // otherwise redirect to home
   { path: '**', redirectTo: '/dashboard' }
+
 ];
 
 @NgModule({
