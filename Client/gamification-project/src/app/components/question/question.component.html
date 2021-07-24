@@ -1,0 +1,49 @@
+<h2 mat-dialog-title *ngIf="!edit">
+    Question Details
+</h2>
+<div mat-dialog-content class="popup-form-content">
+    <form #formControl="ngForm" class="popup-form">
+        <div class="row col-12" style="margin-top: 10px;">
+            <h3>Description</h3>
+            <textarea style="width: 100%;" matInput name="questionName" placeholder="Write here the question..." [(ngModel)]="question.questionName"></textarea>
+        </div>
+        <div class="row col-12">
+            <div class="col-md-10">
+                <h2>Choices</h2>
+            </div>
+            <div class="col-md-2">
+                <button mat-icon-button color="primary" (click)="addRow()">
+                    <mat-icon>library_add</mat-icon>
+                    Add New
+                </button>
+            </div>
+        </div>
+        <div class="row col-12">
+            <div class="question-box" *ngFor="let choice of question.choices; let i = index">
+                <div class="col-md-4">
+                    <mat-form-field class="popup-field">
+                        <input matInput name="choice_{{i}}" type="text" placeholder="Description"
+                            [(ngModel)]="choice.choiceName" required/>
+                    </mat-form-field>
+                </div>
+                <div class="col-md-2">
+                    <div class="popup-field">
+                        <mat-checkbox [(ngModel)]="choice.right" name="correct_{{i}}">
+                            Correct</mat-checkbox>
+                    </div>
+                </div>
+                <div class="col-md-1">
+                    <button mat-icon-button color="warn" (click)="removeOption(choice)">
+                        <i class="material-icons">
+                            delete_forever
+                        </i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<div mat-dialog-actions [align]="'end'">
+    <button mat-flat-button (click)="onCancel()">Cancel</button>
+    <button mat-flat-button [mat-dialog-close]="data" color="primary" [disabled]="!formControl.valid">Save</button>
+</div>

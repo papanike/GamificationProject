@@ -1,0 +1,16 @@
+<div class="row col-12" style="padding: 10px; text-align: center; color: primary;">
+    <div class="col-12">
+        <h2 style="display:inline;">Questions Editor</h2>
+        <span style="float:left; display:block;">
+            <button mat-mini-fab color="accent" (click)="addNew()">
+                <mat-icon class="white">add</mat-icon>
+            </button>
+        </span>
+    </div>
+</div>
+<div class="question-box" *ngFor="let question of questions">
+    <mat-card>
+        <app-question [question]="question" (removeItem)="removeFromList(question)" [edit]="true">
+        </app-question>
+    </mat-card>
+</div>

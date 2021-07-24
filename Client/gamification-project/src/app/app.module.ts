@@ -17,7 +17,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatListModule } from '@angular/material/list';
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
-import { MatDialogModule } from '@angular/material/dialog';
+import { MatDialogModule, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { MatOptionModule, MatNativeDateModule, MatRippleModule } from '@angular/material/core';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -34,6 +34,8 @@ import { MatExpansionModule } from '@angular/material/expansion';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatBottomSheetModule } from '@angular/material/bottom-sheet';
 import { RegisterComponent } from './components/register/register.component';
+import { EditorComponent } from './components/editor/editor.component';
+import { QuestionComponent } from './components/question/question.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +43,9 @@ import { RegisterComponent } from './components/register/register.component';
     LoginComponent,
     HeaderComponent,
     DashboardComponent,
-    RegisterComponent
+    RegisterComponent,
+    EditorComponent,
+    QuestionComponent
   ],
   imports: [
     BrowserModule,
@@ -64,7 +68,10 @@ import { RegisterComponent } from './components/register/register.component';
     MatButtonToggleModule, MatExpansionModule, MatRippleModule, MatTabsModule, MatRadioModule,
     MatGridListModule, MatBottomSheetModule
   ],
-  providers: [],
+  providers: [
+    { provide: MAT_DIALOG_DATA, useValue: {} },
+    { provide: MatDialogRef, useValue: {} }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
