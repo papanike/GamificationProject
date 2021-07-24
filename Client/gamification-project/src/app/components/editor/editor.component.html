@@ -9,8 +9,6 @@
     </div>
 </div>
 <div class="question-box" *ngFor="let question of questions">
-    <mat-card>
-        <app-question [question]="question" (removeItem)="removeFromList(question)" [edit]="true">
-        </app-question>
-    </mat-card>
+    <app-question-tile [question]="question" (removeItem)="removeFromList(question)">
+    </app-question-tile>
 </div>

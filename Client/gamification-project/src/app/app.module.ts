@@ -36,6 +36,7 @@ import { MatBottomSheetModule } from '@angular/material/bottom-sheet';
 import { RegisterComponent } from './components/register/register.component';
 import { EditorComponent } from './components/editor/editor.component';
 import { QuestionComponent } from './components/question/question.component';
+import { QuestionTileComponent } from './components/question-tile/question-tile.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { QuestionComponent } from './components/question/question.component';
     DashboardComponent,
     RegisterComponent,
     EditorComponent,
-    QuestionComponent
+    QuestionComponent,
+    QuestionTileComponent
   ],
   imports: [
     BrowserModule,

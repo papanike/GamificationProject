@@ -12,13 +12,13 @@ import { QuestionAddEditModel } from 'src/app/models/question-add-edit-model';
 export class QuestionComponent implements OnInit {
 
   @Input() question: Question;
-  @Input() edit: Boolean;
   @Output() removeItem: EventEmitter<Question> = new EventEmitter<Question>();
 
   constructor(private dialogRef: MatDialogRef<QuestionComponent>,
-		@Inject(MAT_DIALOG_DATA) public data: QuestionAddEditModel) { }
+    @Inject(MAT_DIALOG_DATA) public data: QuestionAddEditModel) { }
 
   ngOnInit(): void {
+    this.question = this.data;
   }
 
   remove() {
@@ -36,8 +36,8 @@ export class QuestionComponent implements OnInit {
       this.question.choices.splice(index, 1);
     }
   }
-  
-	onCancel(): void {
-		this.dialogRef.close();
-	}
+
+  onCancel(): void {
+    this.dialogRef.close();
+  }
 }

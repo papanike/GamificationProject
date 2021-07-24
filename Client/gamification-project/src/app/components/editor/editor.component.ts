@@ -20,13 +20,18 @@ export class EditorComponent implements OnInit {
     q.id = 1;
     q.questionName = "How old are you?";
     q.difficulty = DifficultyLevel.Easy;
-    let choice = new Choice();
-    choice.choiceName = "<18";
-    choice.questionId = 1;
-    choice.right = true;
-    choice.id = 1;
+    let choice1 = new Choice();
+    choice1.choiceName = "<18";
+    choice1.questionId = 1;
+    choice1.right = true;
+    choice1.id = 1; 
+    let choice2 = new Choice();
+    choice2.choiceName = ">=18";
+    choice2.questionId = 1;
+    choice2.right = true;
+    choice2.id = 2;
     q.choices = [];
-    q.choices.push(choice);
+    q.choices.push(choice1, choice2);
     this.questions.push(q);
   }
 

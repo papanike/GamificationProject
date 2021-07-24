@@ -1,0 +1,21 @@
+<mat-card class="mat-elevation-z8 card">
+    <div class="primary header">
+        <span>{{question.questionName}}</span>
+    </div>
+    <div class="row col-12">
+        <b class="primary">Choices: </b>
+        <div class="col-md-3 center" *ngFor="let choice of question.choices">
+            <ul>
+                <li>{{choice.choiceName}}</li>
+            </ul>
+        </div>
+        <div class="col-md-3" style="text-align: end;">
+            <button mat-icon-button color="primary" (click)="edit()">
+                <mat-icon>edit</mat-icon>
+            </button>
+            <button mat-icon-button color="warn" (click)="remove()">
+                <mat-icon>delete_forever</mat-icon>
+            </button>
+        </div>
+    </div>
+</mat-card>

@@ -1,0 +1,18 @@
+@import "src/assets/_variables";
+
+.group-box {
+	display: flex;
+	justify-content: space-between;
+}
+
+.primary {
+	// color: $primary !important;
+}
+
+.header {
+	font-size: 16px;
+}
+
+.center{
+	align-self: center;
+}
